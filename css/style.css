@@ -1,3 +1,36 @@
 body {
-  background: green;
+  background-color: EFE6E6;
+  text-align: 0 auto;
 }
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin-top: -72px;
+} 
+
+.wrapper {
+  width:100%;
+}
+
+#cancel {
+  color:blue;
+  margin: 0px 0 0 600px; /*need to change as it's not responsive right now*/
+
+}
+footer {
+  text-align: center;
+  margin: 0px 0 0 600px;
+  position:relative;
+}
+#tweets {
+  border: 1px solid black;
+  text-align: center;
+}
+
