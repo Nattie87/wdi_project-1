@@ -1,44 +1,53 @@
 body {
-  background-color: EFE6E6;
+  background-color: #EFE6E6;
   margin: 0 auto;
 }
 
 h1 {
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  font-size: 100px;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 h2 {
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  margin-top: -72px;
-} 
-
-.wrapper {
-  width:100%;
+  font-size: 30px;
+  line-height: 30px;
 }
 
-#cancel {
-  color:blue;
-  margin: 0px 0 0 600px; /*need to change as it's not responsive right now*/
-
-}
 footer {
   text-align: center;
-  margin: 0px 0 0 600px;
-  position:relative;
+  margin: 30px 0 0 0;
 }
 
-#tweets {
+img {
+  height: 200px;
+  margin: 30px auto 0;
+  display: block;
+}
+
+#display {
+  text-align: center;
+}
+
+#play {
+  margin: auto;
+  display: block;
+}
+
+#guess {
   margin: 0 auto;
   text-align: center;
-  border-bottom-color: black;
-  font-family: 'Amatic SC', cursive;
-}
-img {
-  margin-left: 600px;
-  margin-right: 300px;
-  height: 200px;
 }
 
+#guess input {
+  width: 50px;
+  height: 50px;
+  border-radius: 1px solid black;
+  text-align: center;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+}
