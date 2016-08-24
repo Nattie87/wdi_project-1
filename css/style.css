@@ -1,40 +1,52 @@
 body {
-  background-color: #EFE6E6;
   margin: 0 auto;
+  font-family:'Cinzel', serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
 }
 
 h1 {
-  font-family: 'Amatic SC', cursive;
-  text-align: center;
-  font-size: 60px;
-  line-height: 60px;
-}
-
-h2 {
-  font-family: 'Amatic SC', cursive;
-  text-align: center;
-  font-size: 30px;
-  line-height: 30px;
-}
-
-footer {
-  text-align: center;
-  margin: 30px 0 0 0;
-}
-
-img {
-  height: 200px;
-  margin: 30px auto 0;
-  display: block;
-}
-
-#display {
-  text-align: center;
+  font-size: 90px;
+  font-weight: 900;
+  padding-top: 50px;
+  color: white;
+  font-family: 'Cinzel', serif;    
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF; 
 }
 
 #play {
   margin: auto;
   display: block;
+  padding: 10px 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  background: #ff4141;
+  color: white;
+}
+
+#display {
+  margin: 0 auto 20px;
+  background: white;
+  color: black;
+  padding: 20px;
+  display: none;
+  border: 2px dashed black;
+  font-weight: 400;
 }
 
 #guess {
@@ -42,12 +54,69 @@ img {
   text-align: center;
 }
 
-#guess input {
+input {
+  margin: 0 auto 20px;
+}
+
+#guess input[type=text] {
   width: 50px;
   height: 50px;
-  border-radius: 1px solid black;
+  border: 2px solid white;
   text-align: center;
-  font-size: 12px;
   display: block;
+  background: black;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  background: #ffda2b;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+}
+
+.twitter-tweet {
+  font-weight: bold;
   margin: 0 auto;
+  max-width: 480px;
+  color: white;
+}
+
+.twitter-tweet p {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+.twitter-tweet a:hover,
+.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+
+.youtube {
+  position: fixed; 
+  z-index: -99; 
+  width: 100%; 
+  height: 100%;
+}
+
+#overlay {
+  position: fixed;
+  z-index: -1;
+  top:0; 
+  left:0;
+  bottom:0; 
+  right:0;
+  background-color: rgba(33, 33, 230, 0.8);   
 }

@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Kanye Said What?</title>
-  <img src="https://media.giphy.com/media/QXKkBrJYDgcYo/giphy.gif">
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <title> KANYE SAID WHAT?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="js/tweets.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
-  <link rel="stylesheet" href="css/style.css">
 </head>
+<!-- <img src="http://i.giphy.com/HDktkCbnWUWOY.gif"> -->
 <body>
-  <div id="container">
-    <h1><strong>Kanye said what?</strong></h1>
-    <h2>Beat Kanye's ego by guessing the missing letters from his deep, meaningful tweets....</h2>
+  <div class="youtube animated fadeIn">
+    <iframe frameborder="0" height="100%" width="100%" src="https://www.youtube.com/embed/kqPGImLF0m0?autoplay=1&amp;controls=0&amp;loop=1&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;wmode=transparent&amp;hd=1"></iframe>
   </div>
-  <div id="display"></div>
-  <div id="guess"></div>
-  <button id="play">Play</button>
-</div>
+
+  <audio autoplay id="Kanye" kanye's funniest moments.mp3" type="audio/mpeg"></audio>
+  <header>
+    <h1 class="animated bounceInDown">KANYE IS A ____?</h1>
+  </header>
+
+  <main id="container">
+    <div class="twitter-tweet">
+      <p id="display"></p>
+      <div id="guess"></div>
+      <button class="animated bounceInUp" id="play">Play</button>
+    </div>
+  </main>
+
+  <div id="overlay"></div>
 </body>
-<footer>Nattie &#9825 2016</footer>
 </html>
